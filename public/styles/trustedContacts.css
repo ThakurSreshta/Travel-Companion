@@ -1,0 +1,139 @@
+/* trustedcontactsstyle.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.trusted-contacts-container {
+    display: flex;
+    /* Use flexbox to arrange items side by side */
+
+}
+
+.trusted-contacts-form {
+    width: 50%;
+    /* Adjust as needed based on your layout preferences */
+    padding: 20px;
+}
+
+.trusted-contacts-list {
+    width: 50%;
+    /* Adjust as needed based on your layout preferences */
+    padding: 20px;
+}
+
+.trusted-contacts-form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.btn{
+    background-color: #0e1012;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: rgb(14, 16, 18);
+}
+
+.trusted-contacts-list {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 1px 0;
+}
+
+.userId{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(124, 120, 115,0.3);
+    margin:2px;
+    padding: 0px 5px;
+}
+
+

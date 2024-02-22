@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trusted Contacts - Shy-Travel Companion</title>
+  <link rel="stylesheet" href="styles/trustedContacts.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Trusted Contacts</h1>
+    <nav>
+      <ul>
+        <li><a href="#" id="homeLink">Home</a></li>
+        <li><a href="#" id="profileLink">Profile</a></li>
+        <li><a href="#" id="signoutLink">Sign Out</a></li>
+        <li><button id="shareLocationBtn" class="btn">Share My Location</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Trusted Contacts Form Section -->
+  <section class="trusted-contacts-container">
+    <section class="trusted-contacts-form">
+      <form id="add-trusted-contact-form">
+        <label for="contactName">Contact Name</label>
+        <input type="text" id="contactName" name="contactName" required>
+
+        <label for="PhoneNumber">Mobile Number</label>
+        <input type="number" id="PhoneNumber" name="PhoneNumber" required>
+
+        <button type="submit">Add Trusted Contact</button>
+      </form>
+    </section>
+
+    <!-- List of Trusted Contacts Section -->
+    <section class="trusted-contacts-list">
+      <h2>Your Trusted Contacts</h2>
+      <div class="user-info" id="trustedContactsList">
+        <!-- Trusted contacts will be dynamically added here -->
+      </div>
+    </section>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2023 Shy-Travel Companion</p>
+  </footer>
+
+  <script src="./scripts/trustedcontact.js"></script>
+  <script src="./scripts/trustedList.js"></script>
+  <script src="./scripts/location.js"></script>
+</body>
+
+</html>

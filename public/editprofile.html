@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile - Shy-Travel Companion</title>
+    <link rel="stylesheet" href="styles/editprofilestyle.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Edit Your Profile</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="homeLink">Home</a></li>
+                <li><a href="#" id="profileLink">Profile</a></li>
+                <li><a href="./signout.html">Sign Out</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Edit Profile Form Section -->
+    <section class="edit-profile-form">
+        <div class="msg" id="msg"></div>
+        <form id="update-profile-button">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" readonly>
+            <button type="button" id="editUserName">Edit</button>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required readonly>
+            <button type="button" id="editEmail">Edit</button>
+
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" readonly>
+            <button type="button" id="editAge">Edit</button>
+
+            <label for="location">Location</label>
+            <input type="text" id="location" name="location" readonly> 
+            <button type="button" id="editLocation">Edit</button>
+
+            <label for="PhoneNumber">Phone Number</label>
+            <input type="number" id="PhoneNumber" name="PhoneNumber" readonly>
+            <button type="button" id="editPhone">Edit</button>
+
+            <button type="submit">Save Changes</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Shy-Travel Companion</p>
+    </footer>
+    <script src="./scripts/editProfile.js"></script>
+</body>
+</html>

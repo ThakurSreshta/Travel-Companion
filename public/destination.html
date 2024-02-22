@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Destination - Shy-Travel Companion</title>
+  <link rel="stylesheet" href="styles/adddestinationstyle.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+      <h1>Add New Destination</h1>
+      <nav>
+          <ul>
+              <li><a href="#" id="homeLink">Home</a></li>
+              <li><a href="#" id="profileLink">Profile</a></li>
+              <li><a href="#" id="signoutLink">Sign Out</a></li>
+          </ul>
+      </nav>
+  </header>
+
+  <!-- Add Destination Form Section -->
+  <section class="add-destination-form">
+    <div class="msg" id="msg"></div>
+      <form id="add-destination-form">
+          <label for="destinationName">Destination Name</label>
+          <input type="text" id="destinationName" name="destinationName" required>
+          <label for="SeatsAvailable">Number Of Seats</label>
+          <input type="number" id="SeatsAvailable" name="SeatsAvailable" required>
+          <label for="TravelDate">Travel Date</label>
+          <input type="date" id="TravelDate" name="TravelDate" required>
+          <label for="PhoneNumber">Phone Number</label>
+          <input type="number" id="PhoneNumber" name="PhoneNumber" required>
+          <label for="VehicleName">Vehicle Name </label>
+          <input type="text" id="VehicleName" name="VehicleName" required>
+
+          <button type="submit">Add Destination</button>
+      </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+      <p>&copy; 2023 Shy-Travel Companion</p>
+  </footer>
+  <script src="./scripts/destination.js"></script>
+</body>
+</html>

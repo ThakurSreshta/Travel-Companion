@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shy-Travel Companion</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/searchstyle.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Shy-Travel Companion</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="homeLink">Home</a></li>
+                <li><a href="#" id="destinationLink">Add Destination</a></li>
+                <li><a href="#" id="profileLink">Profile</a></li>
+                <li><a href="#" id="notificationLink">Notifications</a></li>
+            </ul>
+            <ul class="signout">
+                <li><a href="#" id="signoutLink">Sign Out</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Featured Destinations Section -->
+    <main>
+        <section class="search-section">
+            <h2>Find a Travel Companion</h2>
+            <form class="search-container" id="formId">
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" placeholder="Enter a destination" required>
+                <button type ="submit" id="search-button">Search</button>
+            </form>
+        </section>
+        <section class="results-section">
+            <h2>Search Results</h2>
+            <div id="connectMsg"></div>
+            <div id="search-results">
+                <!-- Results will be displayed here -->
+                
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Shy-Travel Companion</p>
+    </footer>
+    <script src="./scripts/search.js"></script>
+</body>
+</html>

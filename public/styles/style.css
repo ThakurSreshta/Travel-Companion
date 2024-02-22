@@ -1,0 +1,108 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Basic styling for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    margin-top: 20px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Featured Destinations Section */
+.featured-destinations {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.featured-destinations h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.destination-card {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.destination-card img {
+    max-width: 100%;
+}
+
+.destination-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.destination-card p {
+    color: #666;
+}
+
+.destination-card a {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shy-Travel Companion</title>
+    <link rel="stylesheet" href="styles/searchstyle.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Shy-Travel Companion</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <h2>Find a Travel Companion</h2>
+            <form class="search-container" id="formId">
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" placeholder="Enter a destination" required>
+                <button type ="submit" id="search-button">Search</button>
+            </form>
+        </section>
+        <section class="results-section">
+            <h2>Search Results</h2>
+            <div id="search-results">
+                <!-- Results will be displayed here -->
+                
+            </div>
+        </section>
+    
+    </main>
+
+    <script src="./scripts/search.js"></script>
+</body>
+
+</html>
